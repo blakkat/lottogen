@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Lotto Chooser</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+   <body>
+      <div id="container">
+         <h1> Lotto Chooser</h1>
+         <form id="lottochooser" method="POST">
+            <label>
+               What would you like to play? 
+               <select id="gameType">
+                  <option value="lotto">Saturday Lotto</option>
+                  <option value="lotto">Monday Lotto</option>
+                  <option value="ozlotto">Ozlotto</option>
+                  <option value="lotto">Wednesday Lotto</option>
+                  <option value="powerball">Powerball</option>
+               </select>
+            </label>
+            <label>How many rows? <input type="number" value="1" id="rowNum"></label>
+            <input type="submit" value="gimme numbers">
+         </form>
+      </div>
+      <script src="main.js"></script>
+   </body>
+</html>
